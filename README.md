@@ -1,48 +1,40 @@
-
 # 🏥 Patient Management System
-
-🔁 **Patient Management System** is a web-based application built with **FastAPI** and **Streamlit**, using a machine learning model stored in a Python pickle file to manage and predict patient outcomes based on medical data.
-
-[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)  
-[![FastAPI](https://img.shields.io/badge/FastAPI-FF2D20?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)  
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/ajitaiml)
+🔁 **Patient Management System** A web-based application built with **FastAPI** and **Streamlit**, utilizing a machine learning model stored in a Python pickle file to manage and predict patient outcomes based on medical data.
 
 ---
 
-## 📝 Project Overview
-
-This **Patient Management System** uses a machine learning model to predict patient health outcomes.  
-It integrates a pre-trained model saved as a **pickle file**, offering a **user-friendly interface** with Streamlit and a **robust backend** with FastAPI.  
+## 🧾 Project Overview
+This project implements a **Patient Management System** using a machine learning model to predict **patient health outcomes**.  
+It integrates a pre-trained model saved as a **pickle file**, offering a **user-friendly interface** via Streamlit and a **robust backend** with FastAPI.  
 💡 **Use Cases:** Hospital Patient Monitoring, Medical Record Management, Predictive Health Analytics.
 
 ---
 
-## 🛠️ Tech Stack
-
-| 🔧 Category           | 🛠 Tool       | ✨ Usage                                                                 |
-|-----------------------|---------------|------------------------------------------------------------------------|
-| 🐍 Programming Language | Python       | Base language for model integration, preprocessing, and app logic       |
-| ⚡ Web Framework       | FastAPI      | Backend framework for API development and deployment                    |
-| 🌐 Web App             | Streamlit    | Build and deploy an interactive web app for predictions                |
+## 🧠 Tech Stack
+<table> 
+<tr> <th>Category</th> <th>Tool</th> <th>Usage</th> </tr> 
+<tr> <td><strong>Programming Language</strong></td> <td><img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python" width="30"/> <strong>Python</strong></td> <td>Base language for model integration, preprocessing, and app logic</td> </tr> 
+<tr> <td><strong>Web Framework</strong></td> <td><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI" width="30"/> <strong>FastAPI</strong></td> <td>Backend framework for API development and deployment</td> </tr> 
+<tr> <td><strong>Web App</strong></td> <td><img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" alt="Streamlit" width="30"/> <strong>Streamlit</strong></td> <td>Framework to build and deploy an interactive web app for predictions</td> </tr> 
+<tr> <td><strong>Model Storage</strong></td> <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg" alt="Pickle" width="30"/> <strong>Pickle</strong></td> <td>Stores the trained machine learning model for predictions</td> </tr> 
+</table>
 
 ---
 
-## 📂 Project Structure
-
+## 🗂️ Project Structure
+```
 ├── app.py # Streamlit web app
 ├── main.py # FastAPI backend
 ├── model.pkl # Trained machine learning model
 ├── patients.json # Patient data
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
-
+```
 
 ---
 
-## 🚀 Quick Start
-
-Clone the repository, install dependencies, launch the backend and frontend—all in **one go**:
+## 🚀 Running the Application
+Clone the repository, install dependencies, and launch the backend and frontend:
 
 ```bash
 git clone https://github.com/ajitaiml/Patient-Management-System.git
@@ -51,17 +43,18 @@ pip install -r requirements.txt
 uvicorn main:app --reload  # Launch backend
 streamlit run app.py       # Launch frontend
 
+🎯 Key Features
 
+🏥 Hospital Patient Monitoring
 
----
+📋 Medical Record Management
 
-This file now includes:  
-- **All sections merged into one flow**  
-- **Badges** for Python, FastAPI, Streamlit, GitHub  
-- **Quick Start** instructions in a single block  
-- **Emojis** for all headings  
-- Fully GitHub-ready, professional layout  
+🔍 Predictive Health Analytics
 
-If you want, I can **also add a colorful header banner and extra badges** so it looks like a premium GitHub project.  
+📄 License
 
-Do you want me to do that next?
+This project is licensed under the GPL-3.0 License.
+
+👤 Author
+Ajit Singh
+🔗 GitHub
